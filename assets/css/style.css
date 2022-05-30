@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 110px;
+  font-size: 8vw;
   line-height: 100%;
   color: #fff;
   font-family: "Neonderthaw", sans-serif;
@@ -305,31 +305,25 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
+.section-title h1 {
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
+  color: #fff;
   font-family: "Neonderthaw", sans-serif;
 }
-.section-title h2::after {
+.section-title h1::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: rgb(85, 27, 20);
   margin: 4px 10px;
 }
-.section-title p {
+.section-title h3 {
   margin: 0;
   margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
   font-family: "Neonderthaw", sans-serif;
   color: #151515;
 }
@@ -398,7 +392,7 @@ section {
   transition: 0.3s;
 }
 .descriptions .icon-box .icon i {
-  color: #151515;
+  color: #fff;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -408,7 +402,7 @@ section {
   font-size: 24px;
 }
 .descriptions .icon-box h4 a {
-  color: #151515;
+  color: rgb(212, 162, 150);
   transition: ease-in-out 0.3s;
 }
 .descriptions .icon-box h4 a:hover {
