@@ -658,3 +658,10 @@ section {
 #footer h3 {
 	color: white;
 }
+
+#frhsd a {
+	color: white;
+}
+#frhsd a:hover {
+	color: rgb(85, 27, 20);
+}
